@@ -1,3 +1,32 @@
+/**
+ * Space Explorer - Interactive Educational Game
+ * 
+ * Setup and Run Instructions:
+ * 
+ * 1. Install dependencies:
+ *    npm install react lucide-react @/components/ui
+ * 
+ * 2. Create Next.js project (if not existing):
+ *    npx create-next-app@latest space-explorer --typescript --tailwind --app
+ * 
+ * 3. Add this file as:
+ *    src/components/InteractiveSpace.jsx
+ * 
+ * 4. Run the development server:
+ *    npm run dev
+ * 
+ * 5. Open in browser:
+ *    http://localhost:3000
+ * 
+ * Required dependencies:
+ * - React
+ * - lucide-react
+ * - @/components/ui/card (from shadcn/ui)
+ * 
+ * Note: Ensure you have the required shadcn/ui components installed:
+ * npx shadcn-ui@latest add card
+ */
+
 import React, { useState, useEffect } from 'react';
 import { Rocket, Star, Moon, Sun, CircleDot, Info } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -219,4 +248,4 @@ const InteractiveSpace = () => {
   );
 };
 
-export default InteractiveSpace; 
+export default InteractiveSpace;
